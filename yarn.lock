@@ -5938,6 +5938,10 @@ safe-regex@^1.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
+sal.js@^0.4.9:
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/sal.js/-/sal.js-0.4.9.tgz#e387f81201f87727d53899424bf73646ebc08fc9"
+
 sane@~1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/sane/-/sane-1.6.0.tgz#9610c452307a135d29c1fdfe2547034180c46775"

@@ -18,34 +18,39 @@
   border-radius: 1rem;
 }
 
+.pokedex{
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+
 .row{
   display: flex;
   justify-content: space-between;
 }
 
-.row .left, .row .right{
-  display: flex;
-  flex-grow: 1;
+.row + .row {
+  margin-top: 96px;
 }
 
-.row .left{
+.row .column{
+  display: flex;
+  flex: 0 0 calc(50% - 12rem);
+  max-width: calc(50% - 12rem);
+  justify-content: space-between;
+}
+
+.row:nth-child(2n) .column{
+  justify-content: space-around;
+}
+
+.row .column:first-of-type{
   padding-right: 10rem;
 }
-.row .right{
+
+.column + .column{
   padding-left: 10rem;
 }
 
-.even .left {
-  justify-content: space-around;
+.pokemon img{
+  width: 6rem;
 }
-.even .right {
-  justify-content: space-around;
-}
-
-.odd .left {
-  justify-content: space-between;
-}
-.odd .right {
-  justify-content: space-between;
-}
-
